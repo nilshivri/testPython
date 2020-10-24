@@ -20,3 +20,5 @@ while True:
         smallest = num
 print("Maximum is", largest)
 print("Minimum is", smallest)
+
+print("Hello")
