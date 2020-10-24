@@ -7,14 +7,14 @@ while True:
         break
     try:
         num = int(num)
-    except:
+    except ValueError:
         print("Invalid input")
         continue
-    if largest == None:
+    if largest is None:
         largest = num
     elif num > largest:
         largest = num
-    if smallest == None:
+    if smallest is None:
         smallest = num
     elif num < smallest:
         smallest = num
